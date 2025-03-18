@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "many_more_ores_and_crafts:silver_chestplate"
+      "id": "many_more_ores_and_crafts:titanium_sword"
     },
     "title": {
-      "translate": "advancements.silver_armor_achievement.title"
+      "translate": "advancements.titanium_sword_achievement.title"
     },
     "description": {
-      "translate": "advancements.silver_armor_achievement.descr"
+      "translate": "advancements.titanium_sword_achievement.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "silver_armor_achievement_0": {
+    "titanium_sword_achievement_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_helmet"
+              "many_more_ores_and_crafts:titanium_sword"
             ],
             "count": {
               "min": 1,
@@ -31,13 +31,13 @@
         ]
       }
     },
-    "silver_armor_achievement_1": {
+    "titanium_sword_achievement_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_chestplate"
+              "many_more_ores_and_crafts:titanium_pickaxe"
             ],
             "count": {
               "min": 1,
@@ -47,13 +47,13 @@
         ]
       }
     },
-    "silver_armor_achievement_2": {
+    "titanium_sword_achievement_2": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_leggings"
+              "many_more_ores_and_crafts:titanium_axe"
             ],
             "count": {
               "min": 1,
@@ -63,13 +63,29 @@
         ]
       }
     },
-    "silver_armor_achievement_3": {
+    "titanium_sword_achievement_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_boots"
+              "many_more_ores_and_crafts:titanium_shovel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "titanium_sword_achievement_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "many_more_ores_and_crafts:titanium_hoe"
             ],
             "count": {
               "min": 1,
@@ -81,7 +97,7 @@
     }
   },
   "rewards": {
-    "experience": 6
+    "experience": 4
   },
   "parent": "many_more_ores_and_crafts:ingots_achievement"
 }

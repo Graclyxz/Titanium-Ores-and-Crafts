@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "icon": {
-      "id": "many_more_ores_and_crafts:silver_pickaxe"
+      "id": "many_more_ores_and_crafts:titanium_pickaxe"
     },
     "title": {
       "translate": "advancements.mod_achievement.title"
@@ -22,7 +22,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:raw_silver"
+              "many_more_ores_and_crafts:raw_titanium"
             ],
             "count": {
               "min": 1,
@@ -38,7 +38,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_ingot"
+              "many_more_ores_and_crafts:titanium_ingot"
             ],
             "count": {
               "min": 1,
@@ -54,7 +54,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_chestplate"
+              "many_more_ores_and_crafts:titanium_chestplate"
             ],
             "count": {
               "min": 1,
@@ -70,7 +70,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_hoe"
+              "many_more_ores_and_crafts:titanium_hoe"
             ],
             "count": {
               "min": 1,

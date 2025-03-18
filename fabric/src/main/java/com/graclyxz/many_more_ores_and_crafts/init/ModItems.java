@@ -30,12 +30,12 @@ public class ModItems {
        4. BlockBehaviour prpeties
        5. Item propeties */
 
-    /*public static final List<Item> SILVER_ITEMS = registerAllItems("silver", Tool.SILVER, Armor.SILVER,
-            new float[]{5f, -2f}, new float[]{3f, -2.8f}, new float[]{6f, -3.1f}, new float[]{0, 0f}, new float[]{3.5f, -3f},
-            new Item.Properties());
-    public static final List<Block> SILVER_BLOCKS = registerAllBlocks("silver",  new float[]{4f, 6f}, SoundType.STONE,
+    public static final List<Item> TITANIUM_ITEMS = registerAllItems("titanium", Tool.TITANIUM, Armor.TITANIUM,
+            new float[]{8f, -2.6f}, new float[]{4f, -2.8f}, new float[]{8f, -3f}, new float[]{1, -2f}, new float[]{5.5f, -3f},
+            new Item.Properties().rarity(Rarity.EPIC));
+    public static final List<Block> TITANIUM_BLOCKS = registerAllBlocks("titanium",  new float[]{10f, 14f}, SoundType.DEEPSLATE,
             BlockBehaviour.Properties.of(),
-            new Item.Properties());*/
+            new Item.Properties().rarity(Rarity.EPIC));
 
     public static void init() {
     }

@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class ModTags {
     public interface Items {
-        /*TagKey<Item> SILVER_INGOT = createTag(ResourceLocation.parse("c:ingots/silver"));*/
+        TagKey<Item> TITANIUM_INGOT = createTag(ResourceLocation.parse("c:ingots/titanium"));
 
         private static TagKey<Item> createTag(ResourceLocation name) {
             return TagKey.create(Registries.ITEM, name);

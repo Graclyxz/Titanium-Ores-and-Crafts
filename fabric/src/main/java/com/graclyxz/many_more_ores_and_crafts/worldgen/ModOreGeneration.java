@@ -8,8 +8,8 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 public class ModOreGeneration {
     public static void generateOres() {
 
-        /*BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
-                ModPlacedFeatures.SILVER_ORE_PLACED_KEY);*/
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
+                ModPlacedFeatures.TITANIUM_ORE_PLACED_KEY);
 
 
         // Example for individual Bioms

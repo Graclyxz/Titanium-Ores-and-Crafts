@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "many_more_ores_and_crafts:silver_ingot"
+      "id": "many_more_ores_and_crafts:titanium_ingot"
     },
     "title": {
       "translate": "advancements.ingots_achievement.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:silver_ingot"
+              "many_more_ores_and_crafts:titanium_ingot"
             ],
             "count": {
               "min": 1,

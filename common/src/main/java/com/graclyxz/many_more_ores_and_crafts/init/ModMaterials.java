@@ -20,9 +20,9 @@ public class ModMaterials {
 
     public interface Armor {
 
-        /*ArmorMaterial SILVER = new ArmorMaterial(18, createMap(new int[]{2, 5, 4, 2, 5}),
-                16, SoundEvents.ARMOR_EQUIP_GOLD, 0f, 0f,
-                ModTags.Items.SILVER_INGOT, createAsset("silver"));*/
+        ArmorMaterial TITANIUM = new ArmorMaterial(34, createMap(new int[]{2, 6, 5, 2, 8}),
+                14, SoundEvents.ARMOR_EQUIP_TURTLE, 3f, 0.2f,
+                ModTags.Items.TITANIUM_INGOT, createAsset("titanium"));
 
         private static ResourceKey<EquipmentAsset> createAsset(String name) {
             return ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.fromNamespaceAndPath(MOD_ID, name));
@@ -36,8 +36,8 @@ public class ModMaterials {
     }
 
     public interface Tool {
-        /*ToolMaterial SILVER = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL,
-                350, 8f, 0f, 16,
-                ModTags.Items.SILVER_INGOT);*/
+        ToolMaterial TITANIUM = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+                2031, 9f, 0f, 10,
+                ModTags.Items.TITANIUM_INGOT);
     }
 }

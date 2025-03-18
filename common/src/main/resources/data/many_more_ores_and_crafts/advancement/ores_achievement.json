@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "many_more_ores_and_crafts:raw_silver"
+      "id": "many_more_ores_and_crafts:raw_titanium"
     },
     "title": {
       "translate": "advancements.oresachievement.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "many_more_ores_and_crafts:raw_silver"
+              "many_more_ores_and_crafts:raw_titanium"
             ],
             "count": {
               "min": 1,

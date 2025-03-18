@@ -21,7 +21,7 @@ import static com.graclyxz.many_more_ores_and_crafts.Constants.MOD_ID;
 
 public class ModConfiguredFeatures {
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_SILVER_ORE_KEY = registerKey("silver_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TITANIUM_ORE_KEY = registerKey("titanium_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -30,11 +30,10 @@ public class ModConfiguredFeatures {
         RuleTest endReplaceables = new BlockMatchTest(Blocks.END_STONE);
 
 
-        /*List<OreConfiguration.TargetBlockState> overworldSilverOres = List.of(
-                OreConfiguration.target(stoneReplaceables, ModItems.SILVER_BLOCKS.get(1).defaultBlockState()));*/
+        List<OreConfiguration.TargetBlockState> overworldTitaniumOres = List.of(
+                OreConfiguration.target(deepslateReplaceables, ModItems.TITANIUM_BLOCKS.get(1).defaultBlockState()));
 
-
-        /*register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOres, 8));*/
+        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTitaniumOres, 4));
 
     }
 
